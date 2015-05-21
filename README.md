@@ -47,9 +47,9 @@ grunt opaTest
 A CI tool makes working in a team easier with automated builds. These builds are triggered automatically when each developer checks in their code to the repository. The build process incorporates testing, if testing fails the build stops and team members will be notified.
 
 #### how to, very quick only a couple of steps
-http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771
+[http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771](http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771)
 
 the results
-https://travis-ci.org/jasper07/md-template
+[https://travis-ci.org/jasper07/saptech15](https://travis-ci.org/jasper07/saptech15)
 
 
