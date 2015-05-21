@@ -1,6 +1,5 @@
 /*eslint-env node*/
-'use strict';
-
+/*global module:false*/
 module.exports = function(grunt) {
 
     grunt.initConfig({
@@ -23,7 +22,13 @@ module.exports = function(grunt) {
                 hostname: '*'
             },
             src: {},
-            dist: {}
+            dist: {
+                options: {
+                    open: {
+                        target: 'http://localhost:8080/build.html'
+                    }
+                }
+            }
         },
 
         openui5_connect: {
@@ -151,6 +156,7 @@ module.exports = function(grunt) {
 
     // Build task
     grunt.registerTask('build', ['clean', 'openui5_preload', 'copy' ]);
+    grunt.registerTask('buildRun', ['build','serve:dist' ]);
 
     // Test task
     grunt.registerTask('test', ['openui5_connect:src', 'qunit:unit', 'qunit:opa']);
