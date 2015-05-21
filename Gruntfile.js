@@ -21,7 +21,13 @@ module.exports = function(grunt) {
                 port: 8080,
                 hostname: '*'
             },
-            src: {},
+            src: {
+                options: {
+                    open: {
+                        target: 'http://localhost:8080/index.html'
+                    }
+                }
+            },
             dist: {
                 options: {
                     open: {
@@ -68,23 +74,23 @@ module.exports = function(grunt) {
             }
         },
 
-		clean: {
-			dist: '<%= dir.dist %>/'
-		},
+        clean: {
+            dist: '<%= dir.dist %>/'
+        },
 
-		copy: {
-			dist: {
-				files: [ {
-					expand: true,
-					cwd: '<%= dir.webapp %>',
-					src: [
-						'**',
-						'!test/**'
-					],
-					dest: '<%= dir.dist %>'
-				} ]
-			}
-		},
+        copy: {
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= dir.webapp %>',
+                    src: [
+                        '**',
+                        '!test/**'
+                    ],
+                    dest: '<%= dir.dist %>'
+                }]
+            }
+        },
 
         eslint: {
             options: {
@@ -155,8 +161,8 @@ module.exports = function(grunt) {
     grunt.registerTask('lint', ['eslint:all']);
 
     // Build task
-    grunt.registerTask('build', ['clean', 'openui5_preload', 'copy' ]);
-    grunt.registerTask('buildRun', ['build','serve:dist' ]);
+    grunt.registerTask('build', ['clean', 'openui5_preload', 'copy']);
+    grunt.registerTask('buildRun', ['build', 'serve:dist']);
 
     // Test task
     grunt.registerTask('test', ['openui5_connect:src', 'qunit:unit', 'qunit:opa']);
