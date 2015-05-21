@@ -24,7 +24,7 @@ grunt serve
 
 this will setup a server which hosts the app, open up your browser and point it to
 
-http://localhost:8080/index.html
+[http://localhost:8080/index.html](http://localhost:8080/index.html)
 
 
 
