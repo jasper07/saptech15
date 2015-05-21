@@ -12,6 +12,7 @@ sap.ui.define([
 		"sap/ui/demo/masterdetail/model/grouper"
 ], function (UIComponent, ResourceModel, models, ListSelector, ErrorHandler) {
 	"use strict";
+	x=1
 
 	return UIComponent.extend("sap.ui.demo.masterdetail.Component", {
 
