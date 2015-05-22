@@ -152,6 +152,17 @@ module.exports = function(grunt) {
                     }
                 }
             }
+        },
+
+        replace: {
+            example: {
+                src: ['<%= dir.dist %>/*.js'],
+                overwrite: true,
+                replacements: [{
+                    from: /(?:\$\{copyright\}|@copyright@)/g,
+                    to: "Copyright 2015 c/o SAPTech15 demo"
+                }]
+            }
         }
 
     });
@@ -160,6 +171,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-text-replace');
     grunt.loadNpmTasks('grunt-openui5');
     grunt.loadNpmTasks('grunt-eslint');
     grunt.loadNpmTasks('grunt-contrib-qunit');
@@ -173,7 +185,7 @@ module.exports = function(grunt) {
     grunt.registerTask('lint', ['eslint:all']);
 
     // Build task
-    grunt.registerTask('build', ['clean', 'openui5_preload', 'copy']);
+    grunt.registerTask('build', ['clean', 'openui5_preload', 'copy', 'replace']);
     grunt.registerTask('buildRun', ['build', 'serve:dist']);
 
     // Test task
