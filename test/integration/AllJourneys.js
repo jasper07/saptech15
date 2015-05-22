@@ -1,4 +1,4 @@
-﻿sap.ui.define([
+sap.ui.define([
 	"sap/ui/base/Object"
 ], function (Ui5Object) {
 	return Ui5Object.extend("sap.ui.demo.masterdetail.test.integration.AllJourneys", {
@@ -28,9 +28,6 @@
 			jQuery.sap.require("sap.ui.demo.masterdetail.test.integration.NotFoundJourney");
 			jQuery.sap.require("sap.ui.demo.masterdetail.test.integration.BusyJourney");
 
-			if (oConfig.isFLP) {
-				jQuery.sap.require("sap.ui.demo.masterdetail.test.integration.FLPIntegrationJourney");
-			}
 		}
 	});
 });

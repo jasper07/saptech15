@@ -21,13 +21,17 @@ module.exports = function(grunt) {
                 port: 8080,
                 hostname: '*'
             },
-            src: {
+
+            serve: {
                 options: {
                     open: {
                         target: 'http://localhost:8080/index.html'
                     }
                 }
             },
+
+            src: {},
+
             dist: {
                 options: {
                     open: {
@@ -46,6 +50,14 @@ module.exports = function(grunt) {
                     '<%= dir.bower_components %>/openui5-themelib_sap_bluecrystal/resources'
                 ]
             },
+
+            serve: {
+                options: {
+                    appresources: ['.'],
+                    testresources: ['<%= dir.tests %>']
+                }
+            },
+
             src: {
                 options: {
                     appresources: ['.'],
@@ -153,8 +165,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-qunit');
 
     // Server task
-    grunt.registerTask('serve', function(target) {
-        grunt.task.run('openui5_connect:' + (target || 'src') + ':keepalive');
+    grunt.registerTask('serve', function() {
+        grunt.task.run('openui5_connect:serve' + ':keepalive');
     });
 
     // Linting task
