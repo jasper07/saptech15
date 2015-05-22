@@ -27,7 +27,6 @@ this will setup a server which hosts the app, open up your browser and point it 
 [http://localhost:8080/index.html](http://localhost:8080/index.html)
 
 
-
 ## To run the Unit and Opa tests
 
 [http://localhost:8080/test/unit/unitTests.qunit.html](http://localhost:8080/test/unit/unitTests.qunit.html)
