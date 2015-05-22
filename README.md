@@ -1,7 +1,7 @@
 # saptech15
 SapTech15 presentation on Grunt
 
-[![Build Status](https://api.travis-ci.org/jasper07/saptech15.png)
+[![Build Status](https://api.travis-ci.org/jasper07/saptech15.svg?style=flat)](https://travis-ci.org/jasper07/saptech15)
 
 ## Prequisites 
 Node
