@@ -11,7 +11,6 @@ sap.ui.define([
     return BaseController.extend("sap.ui.demo.masterdetail.controller.App", {
 
         onInit: function() {
-            var myVar = 12;
             var oViewModel,
                 fnSetAppNotBusy,
                 oListSelector = this.getOwnerComponent().oListSelector,
