@@ -29,7 +29,7 @@ sap.ui.define(
 		 * @returns {string} list item type according to the device in use
 		 */
 		listItemType : function (bIsPhone) {
-			return (bIsPhone ? "ActiveErr" : "Inactive");
+			return (bIsPhone ? "Active" : "Inactive");
 		},
 
 		/**
