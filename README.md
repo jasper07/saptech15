@@ -2,6 +2,7 @@
 # SAPTech15 - Supercharge Your UI5 Developments By Adding Some Grunt
 
 **The objective of the presentation**
+
 Highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build and deploy etc.
 
 **The target audience**
