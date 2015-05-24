@@ -1,12 +1,21 @@
-# saptech15
-SapTech15 presentation on Grunt
-
 [![Build Status](https://api.travis-ci.org/jasper07/saptech15.svg?style=flat)](https://travis-ci.org/jasper07/saptech15)
+# saptech15
+Supercharge Your UI5 Developments By Adding Some Grunt
 
-## Prequisites 
-Requirements
+The objective of the presentation - highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build etc
 
-Install Node
+The target audience is - Arch/Dev/Mangers thinking about doing SAPUI5
+
+The problem - limited experience, limited time to learn
+
+the solution - a workflow for you UI5 development with Gruntjs, covering develop, analyse, test, build and deploy
+
+Presentation slides
+
+http://jasper07.secondphase.com.au/presentation-saptech15/
+
+
+## Install Node
 [https://nodejs.org/](https://nodejs.org/)
 
 Open terminal and install Grunt and Bower
