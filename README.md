@@ -4,13 +4,18 @@ SapTech15 presentation on Grunt
 [![Build Status](https://api.travis-ci.org/jasper07/saptech15.svg?style=flat)](https://travis-ci.org/jasper07/saptech15)
 
 ## Prequisites 
-Node
+Requirements
 
-## Installing Grunt
+Install Node
+[https://nodejs.org/](https://nodejs.org/)
+
+Open terminal and install Grunt and Bower
+
+```javascript
 npm install -g grunt-cli bower
+```
 
 ## Installing the application
-ensure you have installed Node.js
 
 ```javascript
 git clone https://github.com/jasper07/saptech15.git
@@ -18,7 +23,7 @@ npm install
 bower install
 ```
 
-## To run the app
+## Run the app
 ```javascript
 grunt serve
 ```
@@ -27,8 +32,16 @@ this will setup a server which hosts the app, open up your browser and point it 
 
 [http://localhost:8080/index.html](http://localhost:8080/index.html)
 
+This will take you to the index page, from here you can
 
-## To run the Unit and Opa tests
+##  Start the app with mock data
+
+[http://localhost:8080/testService.html](http://localhost:8080/testService.html)
+
+## Start the app with code optimized using grunt-openui5 Preload feature
+[http://localhost:8080/build.html]{http://localhost:8080/build.html}
+
+## To run the Unit and Opa tests in the browser
 
 [http://localhost:8080/test/unit/unitTests.qunit.html](http://localhost:8080/test/unit/unitTests.qunit.html)
 
@@ -51,5 +64,7 @@ A CI tool makes working in a team easier with automated builds. These builds are
 
 the results
 [https://travis-ci.org/jasper07/saptech15](https://travis-ci.org/jasper07/saptech15)
+
+
 
 
