@@ -5,12 +5,15 @@
 Highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build and deploy etc.
 
 **The target audience**
+
 Architects, Developers and Mangers thinking about or doing SAPUI5 developments.
 
 **The problem** 
+
 New paradigm, limited experience, limited time to learn
 
 **the solution**
+
 a workflow for you UI5 development with Gruntjs, covering develop, analyse, test, build and deploy
 
 **Presentation slides**
