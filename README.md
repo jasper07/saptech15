@@ -1,15 +1,19 @@
 [![Build Status](https://api.travis-ci.org/jasper07/saptech15.svg?style=flat)](https://travis-ci.org/jasper07/saptech15)
 # SAPTech15 - Supercharge Your UI5 Developments By Adding Some Grunt
 
-The objective of the presentation - highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build etc
+**The objective of the presentation**
+Highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build and deploy etc.
 
-The target audience is - Arch/Dev/Mangers thinking about doing SAPUI5
+**The target audience**
+Architects, Developers and Mangers thinking about or doing SAPUI5 developments.
 
-The problem - limited experience, limited time to learn
+**The problem** 
+New paradigm, limited experience, limited time to learn
 
-the solution - a workflow for you UI5 development with Gruntjs, covering develop, analyse, test, build and deploy
+**the solution**
+a workflow for you UI5 development with Gruntjs, covering develop, analyse, test, build and deploy
 
-Presentation slides
+**Presentation slides**
 
 http://jasper07.secondphase.com.au/presentation-saptech15/
 
