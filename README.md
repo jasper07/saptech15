@@ -1,6 +1,5 @@
 [![Build Status](https://api.travis-ci.org/jasper07/saptech15.svg?style=flat)](https://travis-ci.org/jasper07/saptech15)
-# saptech15
-Supercharge Your UI5 Developments By Adding Some Grunt
+# SAPTech15 - Supercharge Your UI5 Developments By Adding Some Grunt
 
 The objective of the presentation - highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build etc
 
