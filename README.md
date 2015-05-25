@@ -55,7 +55,7 @@ This will take you to the index page, from here you can
 [http://localhost:8080/testService.html](http://localhost:8080/testService.html)
 
 ## Start the app with code optimized using grunt-openui5 Preload feature
-[http://localhost:8080/build.html]{http://localhost:8080/build.html}
+[http://localhost:8080/build.html](http://localhost:8080/build.html)
 
 ## To run the Unit and Opa tests in the browser
 
