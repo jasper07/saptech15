@@ -54,7 +54,7 @@ This will take you to the index page, from here you can
 
 [http://localhost:8080/testService.html](http://localhost:8080/testService.html)
 
-## Start the app with code optimized using grunt-openui5 Preload feature
+## Start the app with optimized code
 [http://localhost:8080/build.html](http://localhost:8080/build.html)
 
 ## To run the Unit and Opa tests in the browser
@@ -63,7 +63,25 @@ This will take you to the index page, from here you can
 
 [http://localhost:8080/test/integration/opaTests.qunit.html](http://localhost:8080/test/integration/opaTests.qunit.html)
 
-## To run the Unit and Opa test via PhantomJS
+
+## Build the code
+Clean: clean the "dist" directory
+Openui5_Preload: Optimize the code by concatenating and minifying soure into a sinle preload component
+Copy: Copy new source to "dist" directory
+Replace: Replace banner on all files
+
+```javascript
+grunt build
+```
+
+## Analyze the code
+Run Eslint accross the code base to check for syntax and formatting errors
+
+```javascript
+grunt lint
+```
+
+## Test the code running in a headerless browser
 use one of the following commands to run both, or run individual
 ```javascript
 grunt test
@@ -72,6 +90,7 @@ grunt unitTest
 
 grunt opaTest
 ```
+
 ## To integrate with Travis-CI
 A CI tool makes working in a team easier with automated builds. These builds are triggered automatically when each developer checks in their code to the repository. The build process incorporates testing, if testing fails the build stops and team members will be notified.
 
