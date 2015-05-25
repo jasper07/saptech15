@@ -1,7 +1,7 @@
 [![Build Status](https://api.travis-ci.org/jasper07/saptech15.svg?style=flat)](https://travis-ci.org/jasper07/saptech15)
 # SAPTech15 - Supercharge Your UI5 Developments By Adding Some Grunt
 
-This repo is a copy of the Openui5 Master-Detail appy, the shows the latest best practice techniques for buildng UI5 apps
+This repo is a copy of the Openui5 Master-Detail app, the app shows the latest best practice techniques for buildng UI5 apps.
 
 DISCLAIMER I copied this app under the knowledge that it is a work in progress, it will subject to change and should be used purely for educational purposes - see License
 
@@ -15,7 +15,7 @@ Architects, Developers and Mangers thinking about or doing SAPUI5 developments.
 
 **The problem** 
 
-New paradigm, team will have limited experience, limited time to learn
+New paradigm, team will have limited experience, limited time to learn, evolving technology prone to changes
 
 **the solution**
 
