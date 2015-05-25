@@ -3,7 +3,7 @@
 
 **The objective of the presentation**
 
-Highlight to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build and deploy etc.
+Highlight to audience that to do SAPUI5 properly you have to go beyond the tutorials and set up tasks and process to manage team, build and deploy etc.
 
 **The target audience**
 
@@ -11,7 +11,7 @@ Architects, Developers and Mangers thinking about or doing SAPUI5 developments.
 
 **The problem** 
 
-New paradigm, limited experience, limited time to learn
+New paradigm, team will have limited experience, limited time to learn
 
 **the solution**
 
